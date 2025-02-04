@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://jainil:gNc3x2dMQLuZLKhP@cluster0.1xldk.mongodb.net/Course_App");
+mongoose.connect(/* Paste your mongodb connection string */);
 
 const userSchema = new mongoose.Schema({
     username : String,
